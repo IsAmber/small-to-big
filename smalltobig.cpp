@@ -17,13 +17,13 @@ char change(char *scanf_s){
 			}
 		}
 	}
-	printf("ÈÄ %s", scanf_s);
+	printf("%s", scanf_s);
 }
 
 int main(int argc, char *argv[]) {
 	char s_list[4];
 	scanf("%s", s_list);
-	printf("Àü %s\n", s_list);
+	printf("%s\n", s_list);
 	change(s_list);
 	return 0;
 }
